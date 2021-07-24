@@ -1,0 +1,9 @@
+ENV/
+
+my_settings.py
+
+**/__pycache__/
+
+**/migrations/
+
+!.gitignore
