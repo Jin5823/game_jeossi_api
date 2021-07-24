@@ -1,4 +1,4 @@
 sudo nginx -s stop
 source ENV/bin/activate
 uwsgi --ini /home/.../uwsgi.ini
-sudo nginx -c /home/.../nginx2020.conf
+sudo nginx -c /home/.../nginx.conf

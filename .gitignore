@@ -1,5 +1,9 @@
 ENV/
 
+uwsgi.pid
+
+uwsgi.log
+
 my_settings.py
 
 **/__pycache__/
