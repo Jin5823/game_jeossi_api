@@ -6,6 +6,10 @@ uwsgi.log
 
 my_settings.py
 
+**/static/
+
+**/templates/
+
 **/__pycache__/
 
 **/migrations/
