@@ -73,6 +73,16 @@ def registration_view(request):
         data['pk'] = account.pk
         token = Token.objects.get(user=account).key
         data['token'] = token
+
+        admin = Account.objects.get(id=1)
+        account.is_match.add(admin)
+        mess = {"sender": admin,
+                "message": "   " 
+
+
+
+
+
     else:
         data = serializer.errors
 
