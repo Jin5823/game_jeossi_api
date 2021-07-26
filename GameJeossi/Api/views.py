@@ -77,12 +77,10 @@ def registration_view(request):
         admin = Account.objects.get(id=1)
         account.is_match.add(admin)
         mess = {"sender": admin,
-                "message": "   " 
-
-
-
-
-
+                "message": "니가 다운로드한 앱이다. 악으로 깡으로 버텨라!\n안녕하세요 관리자입니다.\n문의사항은 여기 남겨주세요.",
+                "receiver": account,
+                }
+        Message.objects.create(**mess)
     else:
         data = serializer.errors
 
