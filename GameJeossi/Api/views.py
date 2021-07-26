@@ -94,12 +94,14 @@ def create_card(request):
             "play_style": request.data["play_style"],
             "gamer_name": request.data["gamer_name"],
             "game_name": request.data["game_name"],
-            "streamer": request.data.getlist("streamer[]"),
-            "community": request.data.getlist("community[]"),
-            "images": request.data.getlist("images[]"),
+            "streamer": request.data.getlist("streamer"),
+            "community": request.data.getlist("community"),
+            "images": request.data.getlist("images"),
             }
 
     images = data.pop('images')
+    if not images:
+        return Response({'response': 'create fail.'})
     community_data = data.pop('community')
     streamer_data = data.pop('streamer')
     game_name = data["game_name"].replace(" ", "")
