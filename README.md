@@ -10,7 +10,7 @@
 ## 구성
 
 - Flow 
-<img src="https://raw.githubusercontent.com/Jin5823/Git-Test/master/src/img_13.jpg" />
+<img src="https://raw.githubusercontent.com/Jin5823/Git-Test/master/src/img_13.JPG" />
 
 - Layer architecture
 
