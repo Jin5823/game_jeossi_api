@@ -19,3 +19,5 @@
 ## 상세내용
 
 [졸업논문 페이지](https://github.com/Jin5823/game_jeossi_app/blob/master/%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8.pdf)
+
+[앱 다운로드](https://play.google.com/store/apps/details?id=com.ajeossi_world.game_jeossi_app)
